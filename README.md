@@ -1,6 +1,8 @@
 # TRPassField
-密码输入控件
-##如何使用<br>
+密码输入控件(swift)
+## 如何使用
+如果是有安装cocopods的话则在Podfile文件中添加“pod 'TRPassField'”,没有的话直接下载本项目，并将TRPassField文件下的代码导入自己的项目。
+### 具体代码
 1.初始化控件<br>
 self.passField = TRPassField.init(frame: CGRect.init(x: 20, y: 100, width: width, height: 50))<br>
 self.view.addSubview(self.passField!)<br>

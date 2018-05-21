@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "王明阳" => "1164719501@qq.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/wangmyQQ/TRPassField", :tag => "#{s.version}" }
+  s.source       = { :git => "git@github.com:wangmyQQ/TRPassField.git", :tag => "#{s.version}" }
   s.source_files  = "TRPassField"
 end

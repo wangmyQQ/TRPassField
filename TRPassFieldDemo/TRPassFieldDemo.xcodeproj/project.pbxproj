@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADA45A2420B2AE4A00999360 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA45A2320B2AE4A00999360 /* AppDelegate.swift */; };
+		ADA45A2620B2AE4A00999360 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA45A2520B2AE4A00999360 /* ViewController.swift */; };
+		ADA45A2920B2AE4A00999360 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA45A2720B2AE4A00999360 /* Main.storyboard */; };
+		ADA45A2B20B2AE4D00999360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA45A2A20B2AE4D00999360 /* Assets.xcassets */; };
+		ADA45A2E20B2AE4D00999360 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA45A2C20B2AE4D00999360 /* LaunchScreen.storyboard */; };
+		ADA45A3920B2AE4D00999360 /* TRPassFieldDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA45A3820B2AE4D00999360 /* TRPassFieldDemoTests.swift */; };
+		ADA45A4420B2AE4D00999360 /* TRPassFieldDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA45A4320B2AE4D00999360 /* TRPassFieldDemoUITests.swift */; };
+		ADA45A5420B2AFC900999360 /* TRPassField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA45A5320B2AFC900999360 /* TRPassField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADA45A3520B2AE4D00999360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA45A1820B2AE4A00999360 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADA45A1F20B2AE4A00999360;
+			remoteInfo = TRPassFieldDemo;
+		};
+		ADA45A4020B2AE4D00999360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA45A1820B2AE4A00999360 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADA45A1F20B2AE4A00999360;
+			remoteInfo = TRPassFieldDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADA45A2020B2AE4A00999360 /* TRPassFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRPassFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA45A2320B2AE4A00999360 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADA45A2520B2AE4A00999360 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADA45A2820B2AE4A00999360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADA45A2A20B2AE4D00999360 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADA45A2D20B2AE4D00999360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADA45A2F20B2AE4D00999360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA45A3420B2AE4D00999360 /* TRPassFieldDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRPassFieldDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA45A3820B2AE4D00999360 /* TRPassFieldDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRPassFieldDemoTests.swift; sourceTree = "<group>"; };
+		ADA45A3A20B2AE4D00999360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA45A3F20B2AE4D00999360 /* TRPassFieldDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRPassFieldDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA45A4320B2AE4D00999360 /* TRPassFieldDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRPassFieldDemoUITests.swift; sourceTree = "<group>"; };
+		ADA45A4520B2AE4D00999360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA45A5320B2AFC900999360 /* TRPassField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TRPassField.swift; path = ../../TRPassField/TRPassField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADA45A1D20B2AE4A00999360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA45A3120B2AE4D00999360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA45A3C20B2AE4D00999360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADA45A1720B2AE4A00999360 = {
+			isa = PBXGroup;
+			children = (
+				ADA45A2220B2AE4A00999360 /* TRPassFieldDemo */,
+				ADA45A3720B2AE4D00999360 /* TRPassFieldDemoTests */,
+				ADA45A4220B2AE4D00999360 /* TRPassFieldDemoUITests */,
+				ADA45A2120B2AE4A00999360 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADA45A2120B2AE4A00999360 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADA45A2020B2AE4A00999360 /* TRPassFieldDemo.app */,
+				ADA45A3420B2AE4D00999360 /* TRPassFieldDemoTests.xctest */,
+				ADA45A3F20B2AE4D00999360 /* TRPassFieldDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADA45A2220B2AE4A00999360 /* TRPassFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ADA45A2320B2AE4A00999360 /* AppDelegate.swift */,
+				ADA45A2520B2AE4A00999360 /* ViewController.swift */,
+				ADA45A5320B2AFC900999360 /* TRPassField.swift */,
+				ADA45A2720B2AE4A00999360 /* Main.storyboard */,
+				ADA45A2A20B2AE4D00999360 /* Assets.xcassets */,
+				ADA45A2C20B2AE4D00999360 /* LaunchScreen.storyboard */,
+				ADA45A2F20B2AE4D00999360 /* Info.plist */,
+			);
+			path = TRPassFieldDemo;
+			sourceTree = "<group>";
+		};
+		ADA45A3720B2AE4D00999360 /* TRPassFieldDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADA45A3820B2AE4D00999360 /* TRPassFieldDemoTests.swift */,
+				ADA45A3A20B2AE4D00999360 /* Info.plist */,
+			);
+			path = TRPassFieldDemoTests;
+			sourceTree = "<group>";
+		};
+		ADA45A4220B2AE4D00999360 /* TRPassFieldDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADA45A4320B2AE4D00999360 /* TRPassFieldDemoUITests.swift */,
+				ADA45A4520B2AE4D00999360 /* Info.plist */,
+			);
+			path = TRPassFieldDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADA45A1F20B2AE4A00999360 /* TRPassFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA45A4820B2AE4D00999360 /* Build configuration list for PBXNativeTarget "TRPassFieldDemo" */;
+			buildPhases = (
+				ADA45A1C20B2AE4A00999360 /* Sources */,
+				ADA45A1D20B2AE4A00999360 /* Frameworks */,
+				ADA45A1E20B2AE4A00999360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRPassFieldDemo;
+			productName = TRPassFieldDemo;
+			productReference = ADA45A2020B2AE4A00999360 /* TRPassFieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADA45A3320B2AE4D00999360 /* TRPassFieldDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA45A4B20B2AE4D00999360 /* Build configuration list for PBXNativeTarget "TRPassFieldDemoTests" */;
+			buildPhases = (
+				ADA45A3020B2AE4D00999360 /* Sources */,
+				ADA45A3120B2AE4D00999360 /* Frameworks */,
+				ADA45A3220B2AE4D00999360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA45A3620B2AE4D00999360 /* PBXTargetDependency */,
+			);
+			name = TRPassFieldDemoTests;
+			productName = TRPassFieldDemoTests;
+			productReference = ADA45A3420B2AE4D00999360 /* TRPassFieldDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADA45A3E20B2AE4D00999360 /* TRPassFieldDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA45A4E20B2AE4D00999360 /* Build configuration list for PBXNativeTarget "TRPassFieldDemoUITests" */;
+			buildPhases = (
+				ADA45A3B20B2AE4D00999360 /* Sources */,
+				ADA45A3C20B2AE4D00999360 /* Frameworks */,
+				ADA45A3D20B2AE4D00999360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA45A4120B2AE4D00999360 /* PBXTargetDependency */,
+			);
+			name = TRPassFieldDemoUITests;
+			productName = TRPassFieldDemoUITests;
+			productReference = ADA45A3F20B2AE4D00999360 /* TRPassFieldDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADA45A1820B2AE4A00999360 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = joydoon;
+				TargetAttributes = {
+					ADA45A1F20B2AE4A00999360 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					ADA45A3320B2AE4D00999360 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = ADA45A1F20B2AE4A00999360;
+					};
+					ADA45A3E20B2AE4D00999360 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = ADA45A1F20B2AE4A00999360;
+					};
+				};
+			};
+			buildConfigurationList = ADA45A1B20B2AE4A00999360 /* Build configuration list for PBXProject "TRPassFieldDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADA45A1720B2AE4A00999360;
+			productRefGroup = ADA45A2120B2AE4A00999360 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADA45A1F20B2AE4A00999360 /* TRPassFieldDemo */,
+				ADA45A3320B2AE4D00999360 /* TRPassFieldDemoTests */,
+				ADA45A3E20B2AE4D00999360 /* TRPassFieldDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADA45A1E20B2AE4A00999360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA45A2E20B2AE4D00999360 /* LaunchScreen.storyboard in Resources */,
+				ADA45A2B20B2AE4D00999360 /* Assets.xcassets in Resources */,
+				ADA45A2920B2AE4A00999360 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA45A3220B2AE4D00999360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA45A3D20B2AE4D00999360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADA45A1C20B2AE4A00999360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA45A2620B2AE4A00999360 /* ViewController.swift in Sources */,
+				ADA45A2420B2AE4A00999360 /* AppDelegate.swift in Sources */,
+				ADA45A5420B2AFC900999360 /* TRPassField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA45A3020B2AE4D00999360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA45A3920B2AE4D00999360 /* TRPassFieldDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA45A3B20B2AE4D00999360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA45A4420B2AE4D00999360 /* TRPassFieldDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADA45A3620B2AE4D00999360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADA45A1F20B2AE4A00999360 /* TRPassFieldDemo */;
+			targetProxy = ADA45A3520B2AE4D00999360 /* PBXContainerItemProxy */;
+		};
+		ADA45A4120B2AE4D00999360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADA45A1F20B2AE4A00999360 /* TRPassFieldDemo */;
+			targetProxy = ADA45A4020B2AE4D00999360 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADA45A2720B2AE4A00999360 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA45A2820B2AE4A00999360 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADA45A2C20B2AE4D00999360 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA45A2D20B2AE4D00999360 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADA45A4620B2AE4D00999360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADA45A4720B2AE4D00999360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADA45A4920B2AE4D00999360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8648KAE2L;
+				INFOPLIST_FILE = TRPassFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joydoon.TRPassFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADA45A4A20B2AE4D00999360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8648KAE2L;
+				INFOPLIST_FILE = TRPassFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joydoon.TRPassFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADA45A4C20B2AE4D00999360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8648KAE2L;
+				INFOPLIST_FILE = TRPassFieldDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joydoon.TRPassFieldDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRPassFieldDemo.app/TRPassFieldDemo";
+			};
+			name = Debug;
+		};
+		ADA45A4D20B2AE4D00999360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8648KAE2L;
+				INFOPLIST_FILE = TRPassFieldDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joydoon.TRPassFieldDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRPassFieldDemo.app/TRPassFieldDemo";
+			};
+			name = Release;
+		};
+		ADA45A4F20B2AE4D00999360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8648KAE2L;
+				INFOPLIST_FILE = TRPassFieldDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joydoon.TRPassFieldDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TRPassFieldDemo;
+			};
+			name = Debug;
+		};
+		ADA45A5020B2AE4D00999360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8648KAE2L;
+				INFOPLIST_FILE = TRPassFieldDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joydoon.TRPassFieldDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TRPassFieldDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADA45A1B20B2AE4A00999360 /* Build configuration list for PBXProject "TRPassFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA45A4620B2AE4D00999360 /* Debug */,
+				ADA45A4720B2AE4D00999360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA45A4820B2AE4D00999360 /* Build configuration list for PBXNativeTarget "TRPassFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA45A4920B2AE4D00999360 /* Debug */,
+				ADA45A4A20B2AE4D00999360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA45A4B20B2AE4D00999360 /* Build configuration list for PBXNativeTarget "TRPassFieldDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA45A4C20B2AE4D00999360 /* Debug */,
+				ADA45A4D20B2AE4D00999360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA45A4E20B2AE4D00999360 /* Build configuration list for PBXNativeTarget "TRPassFieldDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA45A4F20B2AE4D00999360 /* Debug */,
+				ADA45A5020B2AE4D00999360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADA45A1820B2AE4A00999360 /* Project object */;
+}

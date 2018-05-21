@@ -3,7 +3,7 @@
 ##如何使用<br>
 1.初始化控件<br>
 self.passField = TRPassField.init(frame: CGRect.init(x: 20, y: 100, width: width, height: 50))<br>
-self.view.addSubview(self.passField!)
+self.view.addSubview(self.passField!)<br>
 2.是否进入输入密码模式<br>
 self.passField?.isSecureTextEntry = true<br>
 3.设置键盘类型<br>
